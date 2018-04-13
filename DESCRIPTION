@@ -1,0 +1,15 @@
+Package: SrjNurseryR
+Type: Package
+Title: Home for Alpha Code
+Version: 0.0.0.9000
+Authors@R: c(
+    person( "Stuart", "Jefferys",
+           email= "srjefferys@gmail.com", role= c( "aut", "cre" ))
+ )
+Description: A place where my R code starts its life before being moved to a
+    package of its own. Code may appear and disappear from here, beware.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat

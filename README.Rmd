@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# SrjNurseryR - Home for Alpha Code
+
+A place where my R code starts its life before being moved to a package of its own. Code may appear and disappear from here, beware.
