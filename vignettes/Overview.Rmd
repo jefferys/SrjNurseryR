@@ -1,0 +1,44 @@
+---
+title: "Overview"
+author: "Stuart R. Jefferys"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+For a quick overview, see the README.
+
+# Project Vision
+
+## Why are we doing this? Why does this package exists?
+
+I need a place to develop and share my R code internally for use in multiple places, but do not want the overhead of a separate code package to accompany every simple analysis or project. A local code library of tools results in simple functions being copied and pasted in each analysis project, because I am not ready to commit them as functionally useful to others. This package allows me to provide such functions in a messy, partially tested, partially broken way and move on.
+
+## Who is the audience?
+
+The audience is essentially me, but shared so I can access from more than one place myself and public so I can potentially provide code to others, or get there help on my code.
+
+## What does succes look like for this package?
+
+This package is successful when it becomes the default place I put code in during early R development for Projects or Analysis, although not necessarily for new packages. As code is added, it will be tracked at a high level in the "Organization" vignette.
+
+This package is useful when it is possible to find code and understand how to use it again at a later date. This usefulness is enhanced when the "Organization" vignette is up to date, but does not require that. Clean user documentation takes extra effort and that is part of the finishing overhead that using this package intends to avoid. But some documentation is necessary for the developers benefit. Striking the correct balance will be a challenge.
+
+This package is useful when code graduates from this package and is moved to new or existing packages for a permanent home. Such migrations will be tracked in the "Graduation" vignette. The "chain of custody" for code is a required component of success, as reproducibility is a problem otherwise.
+
+This package is useful when code is imported from existing alpha packages that are not actually ready for full package level status. Such imports should be covered in the "Organization" vignette.
+
+## What is not covered?
+
+This is not necessarily the starting point for code where it is intended to generate a separate package from the start. Such code will obviously start life in a separate package.
+
